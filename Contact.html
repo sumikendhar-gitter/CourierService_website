@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" type="text/css" href="direct.css">
+</head>
+<body>
+    <section>
+        <div>
+            <img src="images/contact.jpg" alt="Contact image">
+            <nav>
+               <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+               </ul> 
+            </nav>
+        </div>
+    </section>
+    <section class="contactBack">
+        <div>
+            <h1>Contact Us</h1>
+            <hr>
+            <p>Please fill the details and leave back the message!</p>
+            <p id="field">Required fields are in red and marked with *</p>
+            <form>
+                
+                <div class="form-sub">
+                    <label class="required" for="name">Name</label>
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+            
+                    <div class="form-sub">
+                    <label class="mailer" for="email">E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="Email Adress">
+                    </div>
+            
+                    <div class="form-sub">
+                    <label class="caller" for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                    </div>
+            
+                  
+                    <div class="form-sub">
+                    <label class="option" for="info">Contact Me By </label>
+                    
+                    <div id="jockey">
+                        <input type="radio" id="Email" name="Email">
+                        <label class="mail1" for="Email">E-mail</label>
+                        <input type="radio" id="Phone" name="phone">
+                        <label class="phone1" for="Phone">Phone</label>
+                    </div>    
+                    </div>
+            
+                    <div class="form-sub">
+                        <label class="message1" for="message">Message Type</label>
+                        <select id="message" name="region">
+                          <option>Inquiry</option>
+                          <option>Request</option>
+                          <option>Other</option>
+                        </select>
+                    </div>
+            
+                    <div class="form-sub">
+                        <label class="required" for="message1">Message</label>
+                        <textarea id="message1" name="whatsapp" rows="5" cols="50"></textarea>
+                    </div>
+                    <input type="submit" value="Submit" class="submitbutton">
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>

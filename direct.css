@@ -1,0 +1,131 @@
+body{
+    display: block;
+    width: 70%;
+}
+.formContainer{
+    width: 60%;
+    background-color: #f5f5f5 ;
+    box-shadow: 0px 8px 10px;
+
+}
+
+.mailer, .caller, .option, .mail1, .phone1, .message1{
+    color:#f5f5f5;
+}
+
+.required{
+    color:red;
+}
+
+#field{
+    color:red;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:blueviolet;
+    padding: 10px;
+    font-weight: bold;
+}
+.contactBack{
+    background-image: url(images/backContact.jpg);
+}
+
+p{
+    color:#d4a508;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    display: block;
+    width: 60%;
+    background-color: rgba(194, 99, 11, 0.897);
+    height: 1px;
+    clear: both;
+}
+p{
+    text-align: center;
+}
+
+#jockey{
+    margin:10px;
+}
+
+#jockey input{
+    margin:10px 0px;
+}
+
+#jockey{
+    margin:10px 50px;
+}
+.form-sub #name,#email,#phone{
+   padding-right: 100px;
+   margin-left: 100px;
+}
+
+
+.formContainer input{
+    margin:10px 100px;
+}
+
+select{
+    margin:10px 50px;
+    padding:0px 70px;
+}
+
+option{
+    text-align: left;
+}
+
+.formContainer .submitbutton{
+    margin:10px 50px 10px 140px;
+}
+
+textarea{
+    margin: 10px 74px;
+}
+.required::after{
+    content: "*";
+    color: red;
+}
+
+
+/* input and label styles*/
+input{
+    text-align: left;
+    display:inline;
+    margin:10px 0;
+    
+}
+
+
+
+label{
+    text-align: left;
+}
+
+.form-sub{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.submitbutton{
+    text-align: center;
+    background-color: rgb(94, 169, 199);
+    margin: 15px 100px;
+    padding: 5px 100px;
+    
+}
+
